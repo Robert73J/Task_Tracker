@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Daily Tracker</title>
+
+  <script src="//unpkg.com/systemjs@0.19.47/dist/system.js"></script>
+</head>
+
+<body>
+  <h2>🕒 Daily Tracker</h2>
+  <p id="clock">Loading time...</p>
+  
+  <label>Start Date: <input type="date" id="startDate" /></label>
+  <p id="daysCount"></p>
+  
+  <input id="taskInput" placeholder="What are you doing?" />
+  <button onclick="saveTask()">Save Task</button>
+  
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
